@@ -1,0 +1,12 @@
+body {background-color: #27a8d2;}
+header {background:url("https://images.unsplash.com/photo-1503177847378-d2048487fa46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8b28e6a318b7c126e31813199050b9b&auto=format&fit=crop&w=967&q=80"); background-size :cover;}
+header * {background-color: rgb(255, 255, 255, 0,5); color: black;} 
+h3 {font-size: 20px;}
+.summary p{background-color: red;}
+.preamble p:last-child {background-color:purple;}
+.preamble p:first-of-type {background-color: pink;}
+div [role="main"]{border: dashed red 1px;}
+div.main p:nth-child(2n+1) {background-color: yellow; color:green;}
+h3:hover {border: dotted pink 5px;}
+li:nth-child(2n+1){background-color: orange;}
+li:nth-child(2n) {background-color: red;}
